@@ -64,7 +64,7 @@ st.markdown("---")
 
 # Sidebar: Form to add new jobs
 with st.sidebar:
-    st.header("➕ Add New Job")
+    st.header("👌 Add New Job")
     with st.form("job_form", clear_on_submit=True):
         company = st.text_input("Company Name", placeholder="e.g. Google")
         position = st.text_input("Job Title", placeholder="e.g. Python Developer")
